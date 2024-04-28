@@ -3,8 +3,11 @@ on: [push]
 jobs:
   lhci:
     name: Lighthouse
-    permissions: write-all
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      repository-projects: write
     steps:
       - uses: actions/checkout@v3
       - name: Lighthouse
