@@ -15,7 +15,7 @@ jobs:
         with:
           store: ${{ secrets.SHOP_STORE_OS2 }}
           password: ${{ secrets.SHOP_PASSWORD_OS2 }}
-          access_token: ${{ secrets.SHOP_ACCESS_TOKEN }}
+          access_token: 3788b57a38e5df826fbc0dd242e9dccb
           collection_handle: all
           lhci_github_app_token: ${{ secrets.LHCI_GITHUB_TOKEN }}
           pull_theme: ${{ secrets.SHOP_PULL_THEME }}
